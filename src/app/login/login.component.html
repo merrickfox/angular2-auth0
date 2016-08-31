@@ -1,0 +1,6 @@
+<p>
+  login works!
+  <a class="btn btn-primary btn-margin" (click)="auth.login()" *ngIf="!auth.authenticated()">Log In</a>
+  <a class="btn btn-primary btn-margin" (click)="auth.logout()" *ngIf="auth.authenticated()">Log Out</a>
+</p>
+
